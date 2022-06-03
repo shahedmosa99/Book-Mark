@@ -1,0 +1,188 @@
+
+a{
+    text-decoration: none;
+}
+@font-face{
+    font-family: Rubic1;
+    src: url("../fonts/Rubik-Italic-VariableFont_wght.ttf");
+}
+@font-face{
+    font-family: Rubic2;
+    src: url("../fonts/Rubik-VariableFont_wght.ttf");
+}
+.container{
+    padding: 40px 10% 0px 10%;
+    width: 100%;
+    background-color: #fafafa;
+}
+.logo{
+    display: flex;
+    justify-content: space-between; 
+}
+.icon{
+    display: inline-block;
+}
+.main-nav .nav-item{
+    color: black;
+    padding: 15px;
+    font-size: 15px;
+    font-family: Rubic2;
+}
+.nav-item:hover{
+    color: rgb(227, 66, 66);;
+}
+.sign{
+    background-color: rgb(227, 66, 66);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.sign:hover{
+    background-color: #fafafa;
+    color: rgb(227, 66, 66);
+}
+.top-header{
+    display: flex;
+    margin-bottom: 60px;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ .main-heading{
+    font-family: Rubic2;
+    font-size: 50px;
+    word-spacing: 5px;
+    margin-bottom: 30px;
+    color: #242A45;
+}
+ .main-par{
+    font-family: Rubic2;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 15px;
+}
+.but{
+display: inline-block;
+}
+.Browser{
+    color: white;
+    font-size: 15px;  
+    background-color: #5267DF;
+    padding: 15px 17px;
+    border: none;
+    border-radius: 10px;
+}
+.Browser:hover{
+    background-color: rgb(180, 173, 173);
+}
+.fire{
+    background-color: rgb(180, 173, 173);
+}
+.fire:hover{
+    background-color: #5267DF;
+}
+.middel{
+    display: flex;
+    justify-content: space-between;
+}
+.header2{
+  padding: 60px;
+}
+.main-heading2{
+    font-family: Rubic2;
+    font-size: 35px;
+    word-spacing: 5px;
+    margin-bottom: 30px;
+    color: #242A45;
+}
+.main-par2{
+    font-family: Rubic2;
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 15px;
+}
+.info{
+    color: white;
+    font-size: 15px;
+    background-color: rgb(196, 190, 190);
+    padding: 15px 17px;
+    border: none;
+    border-radius: 10px;
+}
+.info:hover{
+    background-color: #5267DF;
+}
+.titel{
+    text-align: center;
+    margin-top: 60px;
+    padding: 50px 50px;
+    margin-bottom: 20px;
+}
+.main-heading3{
+    font-family: Rubic2;
+    font-size: 35px;
+    word-spacing: 5px;
+    color: #242A45;
+    margin-bottom: 15px;
+}
+.main-par3{
+    font-family: Rubic2;
+    font-size: 20px;
+    white-space: 5px;
+    color: gray;
+}
+.boxes{
+display: flex;
+justify-content: space-between;
+/*justify-content: space-around;*/
+margin-bottom: 100px;
+}
+.chrome , .firefox ,.opera{
+padding: 40px 40px;
+text-align: center;
+background-color: #ecf0f0;
+border-radius: 15px;
+}
+.place{
+    font-family: Rubic2;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ver{
+    font-family: Rubic2;
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 40px;
+}
+.line{
+    margin-bottom: 15px;
+   /*width: 60%;*/
+}
+.install{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(165, 159, 159);
+}
+.install:hover{
+    background-color: #5267DF;
+}
+.footer{
+    font-size: Rubic1;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding: 10px;
+}
